@@ -41,7 +41,9 @@ npm install
  - Replace the connection string in app.js with your MongoDB Atlas connection string.
 
 ## Run the application
-``` node app.js ```
+   ```
+   node app.js
+   ```
 
 The application will be accessible at http://localhost:3000.
 
