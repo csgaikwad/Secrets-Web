@@ -4,13 +4,26 @@ Welcome to the Secrets Web Application, a digital sanctuary for sharing and expl
 
 ## Key Features
 
-- **User Registration:** Sign up with a valid email and password to create your account.
-- **User Login:** Existing users can log in securely with their credentials.
-- **Submit Your Secrets:** Share your thoughts anonymously by submitting secrets.
-- **View Your Secrets:** After logging in, see your latest secret and its creation date.
-- **Dark Mode:** Enhance your experience with a sleek and user-friendly dark mode.
-- **CSS Styling:** The frontend is styled using CSS for an appealing visual presentation.
-- **EJS Partials:** Utilizes EJS partials for efficient code reuse in the views.
+1. **User Registration:**
+   - Sign up with a valid email and password to create your account.
+
+2. **User Login:**
+   - Existing users can log in securely with their credentials.
+
+3. **Submit Your Secrets:**
+   - Share your thoughts anonymously by submitting secrets.
+
+4. **View Your Secrets:**
+   - After logging in, effortlessly access your latest secret along with its creation date.
+
+5. **Dark Mode:**
+   - Enhance your experience with a sleek and user-friendly dark mode.
+
+6. **CSS Styling:**
+   - Elevate the visual appeal with carefully crafted CSS styles for the frontend.
+
+7. **EJS Partials:**
+   - Optimize code organization and reusability using EJS partials in the views.
 
 ## Prerequisites
 
