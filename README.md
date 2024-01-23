@@ -36,8 +36,8 @@ npm install
 ```
 
 # Set up MongoDB:
-# - Create a MongoDB Atlas account.
-# - Replace the connection string in app.js with your MongoDB Atlas connection string.
+ - Create a MongoDB Atlas account.
+ - Replace the connection string in app.js with your MongoDB Atlas connection string.
 
 # Run the application
 ``` node app.js ```
@@ -68,3 +68,4 @@ The application will be accessible at http://localhost:3000.
 
 ## Contributing
 *Feel free to contribute to the project by opening issues or submitting pull requests.*
+🚀
