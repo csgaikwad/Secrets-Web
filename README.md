@@ -46,7 +46,7 @@ Before getting started, make sure you have the following installed:
 
 - Install dependencies
 
-   ```bash
+   ```js
    npm install
    ```
 
