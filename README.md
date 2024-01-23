@@ -1,6 +1,6 @@
 # Secrets Web Application
 
-Welcome to Secrets, a web application designed for sharing and discovering anonymous secrets. This project is built with Node.js, Express, MongoDB, and EJS for a seamless and secure user experience.
+Welcome to the Secrets Web Application, a digital sanctuary for sharing and exploring anonymous secrets. This innovative platform, crafted with the latest technologies including Node.js, Express, MongoDB, and EJS, ensures a seamless and secure user experience. Dive into a world where users can express their innermost thoughts anonymously, fostering a community built on trust and confidentiality. Uncover the power of shared secrets in an environment designed for simplicity, anonymity, and connection.
 
 ## Key Features
 
@@ -27,8 +27,8 @@ Before getting started, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd secrets-web
+   git clone <https://github.com/csgaikwad/Secrets-Web.git>
+   cd Secrets-web
 
 # Install dependencies
 ```
