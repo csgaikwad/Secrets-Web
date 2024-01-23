@@ -37,24 +37,24 @@ Before getting started, make sure you have the following installed:
 
 ## Installation Steps
 
-- Clone the repository:
+- ### Clone the repository:
 
    ```bash
    git clone <https://github.com/csgaikwad/Secrets-Web.git>
    cd Secrets-web
    ```
 
-- Install dependencies
+- ### Install dependencies
 
    ```bash
    npm install
    ```
 
-- Set up MongoDB:
- - Create a MongoDB Atlas account.
- - Replace the connection string in app.js with your MongoDB Atlas connection string.
+- ### Set up MongoDB:
+   - Create a MongoDB Atlas account.
+   - Replace the connection string in app.js with your MongoDB Atlas connection string.
 
-- Run the application
+- ### Run the application
    ```bash
    node app.js
    or
