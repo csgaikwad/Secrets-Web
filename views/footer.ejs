@@ -1,0 +1,35 @@
+<script>
+  const checkbox = document.getElementById("checkbox");
+  const newbtn = document.getElementById("newbtn");
+
+  if (!localStorage.getItem('mode')) {
+    localStorage.setItem('mode', 'light');
+  }
+  var mode = localStorage.getItem('mode');
+  applyMode();
+
+  checkbox.addEventListener("click", () => {
+    mode = mode === "light" ? "dark" : "light";
+    localStorage.setItem('mode', mode);
+    applyMode();
+  });
+
+  function applyMode() {
+    if (mode === "light") {
+      document.body.classList.remove("darkMode");
+      newbtn.classList.remove("theme-toggle--toggled");
+      newbtn.classList.remove("sliding");
+
+      checkbox.checked = false;
+    } else if (mode === "dark") {
+      document.body.classList.add("darkMode");
+      newbtn.classList.add("theme-toggle--toggled");
+      newbtn.classList.add("sliding");
+
+      checkbox.checked = true;
+    }
+  }
+</script>
+</body>
+
+</html>
