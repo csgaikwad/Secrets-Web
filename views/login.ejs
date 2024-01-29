@@ -1,0 +1,65 @@
+<%- include('partials/header') %>
+
+<div class="main temp">
+  <div class="container mt-5">
+    <h1>Login</h1>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-body">
+
+            <form id="loginForm" action="/login" method="POST">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="input form-control" name="email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="input form-control" name="password">
+              </div>
+
+              <button type="submit" class="btn btn-dark log " id="logging"><span>Login</span></button>
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign In with Google
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    </div>
+  </div>
+</div>
+
+<script>
+  const logButton = document.getElementById('logging');
+  logButton.addEventListener('click', ()=>{
+    Pressbtn();
+    setTimeout(() => {
+      logButton.innerHTML = "Login";
+    }, 2000);
+  });
+  async function Pressbtn() {
+    logButton.innerHTML =
+      '<span class="visually-hidden" role="status"> Logging in </span>' +
+      '<span class="spinner-grow spinner-grow-sm" style="height: 0.5rem;width: 0.5rem;margin-bottom: 0.1rem;" aria-hidden="true"></span>' +
+      '<span class="spinner-grow spinner-grow-sm" style="height: 0.5rem;width: 0.5rem;margin-bottom: 0.1rem;" aria-hidden="true"></span>' +
+      '<span class="spinner-grow spinner-grow-sm" style="height: 0.5rem;width: 0.5rem;margin-bottom: 0.1rem;" aria-hidden="true"></span>';
+    const result = await response.json();
+      if (result.status === "failed") {
+        event.preventDefault();
+        alert(result.message);
+      }
+  }
+</script>
+<%- include('partials/footer') %>
