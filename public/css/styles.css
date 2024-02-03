@@ -1,0 +1,107 @@
+body {
+  background-color: #e8ecef;
+  height: 100vh;
+}
+
+i {
+  color: #333;
+}
+
+i,
+h1,
+hr,
+p {
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.main {
+  height: 100vh;
+}
+
+.centered {
+  padding-top: 115px;
+  text-align: center;
+}
+
+.darkBtn {
+  padding-top: 35px;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #333;
+}
+
+.darkMode {
+  label,
+  span,
+  button {
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+  }
+
+  body {
+    background-color: #333;
+  }
+
+  .main {
+    height: 100vh;
+    background-color: #333;
+  }
+
+  .temp {
+    padding-top: 1px;
+  }
+
+  div,
+  form,
+  hr {
+    background-color: #333;
+    border-color: #e8ecef;
+    color: #e8ecef;
+  }
+
+  .centered {
+    padding-top: 115px;
+    text-align: center;
+    color: #e8ecef;
+  }
+
+  .secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #333;
+  }
+
+  .input {
+    background-color: lightgray;
+    color: #333;
+  }
+
+  .fas {
+    color: #e8ecef;
+  }
+
+  .btn-outline-dark,
+  .log {
+    border-color: #e8ecef;
+    color: #e8ecef;
+  }
+
+  a,
+  button {
+    border-color: #e8ecef;
+  }
+}
