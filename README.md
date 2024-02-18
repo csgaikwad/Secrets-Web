@@ -1,7 +1,6 @@
 # Secrets Web Application
 
-Welcome to the Secrets Web Application, a digital sanctuary for sharing and exploring anonymous secrets. This innovative platform, crafted with the latest technologies including *Node.js, Express, MongoDB and EJS* ensures a seamless and secure user experience. Dive into a world where users can express their innermost thoughts anonymously, fostering a community built on trust and confidentiality. Uncover the power of shared secrets in an environment designed for simplicity, anonymity, and connection.
-
+🔒 Welcome to Secrets Web App, where anonymity meets connection! Discover a sanctuary for sharing anonymous secrets, powered by Node.js, Express, MongoDB, and EJS. Join a community built on trust and confidentiality, exploring the power of shared thoughts in a seamless and secure environment. Dive in now! 🌟
 ## Key Features
 
 1. **User Registration:**
